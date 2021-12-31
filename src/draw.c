@@ -282,7 +282,7 @@ void draw_f_commands()
 	}
 	else
 	{
-		tb_blit(strlen(lang.f1) + 1, 0, strlen(lang.f2), 1, f2);
+		tb_blit(strlen(lang.f1) + 1, 0, strlen(lang.f2)+3, 1, f2);
 		free(f2);
 	}
 }
