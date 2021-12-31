@@ -18,6 +18,7 @@ case $SHELL in
     elif [ -f $HOME/.profile ]; then
       . $HOME/.profile
     fi
+    [ -f /usr/milis/bin/desktop.sh ] && source /usr/milis/bin/desktop.sh
     ;;
 */zsh)
     [ -z "$ZSH_NAME" ] && exec $SHELL $0 "$@"
